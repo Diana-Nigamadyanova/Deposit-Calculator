@@ -1,0 +1,114 @@
+.top{
+  width: 101.2%;
+  height: 60px;
+  margin-top:-20px;
+  margin-left:-10px;
+  background-color: #1f2229;
+  background-image: url(iqDev.png);
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-position: top 7px left 370px;  
+}
+h2{
+	color: #fefefe;
+	margin-left: 500px;
+	padding-top: 13px;
+	font-family:  'Roboto', sans-serif;
+	font-weight: normal;
+}
+body{
+	background-color: #e9e9e9;
+}
+.calculator{
+	background-color: #faf6f6;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top:-20px;
+	width: 70%;
+	height: 683px;
+	margin-bottom:-20px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	padding-top: 40px;
+	font-family:  'Roboto', sans-serif;
+	font-weight: normal;
+}
+p{
+	padding-bottom: 30px;
+}
+
+.row{
+	margin-top: 30px;
+}
+
+.left{
+	margin-right:60px;
+}
+
+input[type="text"], input[type="number"]{
+	height: 50px;
+	width: 30%;
+	border-color: #202020;
+	transition: all 0.2s ease;
+ }
+ 
+input[type="number"]::-webkit-input-placeholder, 
+input[type="text"]::-webkit-input-placeholder { 
+	color: #202020; 
+	font-size: 11pt; 
+	font-family: 'Roboto', 
+	sans-serif;
+}
+
+#term{
+	height: 50px;
+	width: 20%;
+	border-color: #202020;
+	margin-left: 60px;
+}
+
+#selectItem{
+	height: 56px;
+	width: 10%;
+	border-color: #202020;
+	margin-left:-6px;
+	
+}
+
+#sum{
+	margin-right: 60px;
+}
+
+#checkbox{
+	height: 10px;
+	font-size: 6pt;
+}
+#sumAdd{
+	margin-left: 115px;
+}
+#button{
+	background-color: #33c4a0;
+	color: #fff;
+	border: none;
+	height: 50px;
+	width: 15%;
+	margin-top: 30px;
+	font-size: 11pt;
+	font-family: 'Roboto', sans-serif;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+}
+
+
